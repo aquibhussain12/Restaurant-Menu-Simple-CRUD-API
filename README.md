@@ -21,7 +21,7 @@ ENDPOINT: /delete/:id
 
 ENDPOINTS: /category/:category
 
-Fork the repository.
+<b>Fork the repository.</b>
 
 Create a new branch: git checkout -b feature/my-feature.
 
