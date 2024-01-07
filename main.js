@@ -8,7 +8,7 @@ app.use(cors());
 
 // connect to database
 
-mongoose.connect('mongodb://127.0.0.1:27017/Recipe');
+mongoose.connect('URL CONNECTION STRING');
 const db= mongoose.connection;
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
 db.once('open', () => {
